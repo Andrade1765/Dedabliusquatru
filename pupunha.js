@@ -22,8 +22,28 @@ function checkInputs(){
     else {
     setSuccessFor(username);
         }
-    }
 
+        if (emailValue === ''){
+            setErrorFor(email, 'O Email é obrigatório');
+        }
+        else {
+            setSuccessFor(email);
+        }
+    
+        if (passwordValue === ''){
+            setErrorFor(password, 'A senha é obrigatória porra!');
+        }
+        else {
+            setSuccessFor(password);
+        }
+    
+        if (passwordConfirmationValue === ''){
+            setErrorFor(passwordConfirmation, 'A confirmação também disgrama');
+        }
+        else {
+            setSuccessFor(passwordConfirmation);
+        }
+    }
 
 function setErrorFor(input, message){
     const formControl = input.parentElement;
