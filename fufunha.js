@@ -57,7 +57,7 @@ function checkInputs(){
             setErrorFor(email, 'O Email é obrigatório');
         }
         else if (!checkEmail(emailValue)) {
-            setErrorFor(email, 'Porra, digita um email válido');
+            setErrorFor(email, 'Digite um email válido'); //Eu tinha deixado um texto errado aqui antes.
         }
         else {
             setSuccessFor(email);

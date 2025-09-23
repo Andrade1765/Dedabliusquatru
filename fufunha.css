@@ -8,7 +8,9 @@
   body {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #1565c0 0%, #1e88e5 50%, #42a5f5 100%);
+background: #000000;
+background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(43, 43, 43, 1) 25%,
+ rgba(48, 48, 48, 1) 48%, rgba(43, 43, 43, 1) 73%, rgba(0, 0, 0, 1) 100%); /*Usei o site do CSS Gradient https://cssgradient.io/*/
     display: flex;
     justify-content: center;
     align-items: center;
