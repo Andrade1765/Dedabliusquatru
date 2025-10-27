@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 40px 20px;
+} 
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    background: #fafafa;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-shadow: 0 12px 40px rgba(red, green, blue, alpha);
+}
+
+.page-header h1 {
+    size-adjust: a;
+}
